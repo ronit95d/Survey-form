@@ -1,0 +1,132 @@
+/* body  */
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 800;
+  margin: 0;
+  text-align: left;
+  background-color: #b4cfb0;
+  background-image: linear-gradient(#a7bbc7, #495371);
+}
+
+/* Heading  */
+
+.heading {
+  text-align: center;
+  padding-top: 30px;
+  font-size: 1.8rem;
+  font-style: italic;
+  font-family: inherit;
+}
+
+/* container - main box*/
+
+.container {
+  background-color: #dfdfde;
+  padding: 20px 10px;
+  margin: 5% 10% 5% 10%;
+  border-radius: 20px;
+  box-shadow: 8px 8px #313552;
+}
+
+/* label {
+    font-size: 1.3rem;
+} */
+
+/* Inputs */
+
+input {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 90%;
+  height: 40px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+/* field-box section */
+
+.field-box {
+  margin: 10px 40px 20px 39px;
+}
+
+/* All inputs */
+
+.input-box {
+  width: 20px;
+  height: 19px;
+  border: 1px solid black;
+}
+
+/* List Style  */
+
+ul {
+  list-style-type: none;
+}
+
+/* Drop down list */
+
+.continent-list {
+  width: 91%;
+  height: 45px;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  color: grey;
+}
+
+/* Text area or Comment section */
+
+textarea {
+  width: 89%;
+  resize: none;
+  padding: 1%;
+  font-size: 1.2rem;
+  color: grey;
+}
+
+/* button section */
+
+button {
+  background-color: rgba(21, 21, 124, 0.219);
+  border-radius: 10px;
+  border: 2px solid black;
+  cursor: pointer;
+  width: 91%;
+  height: 50px;
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding: 2px;
+}
+
+button:hover {
+  background-color: rgb(120, 130, 164);
+  font-size: larger;
+}
+
+#qualification {
+  width: 22px;
+  margin: 10px 0 5px 0;
+  height: 18px;
+}
+
+/* media */
+
+@media (max-width: 800px) {
+  .heading {
+    font-size: 1.3rem;
+  }
+
+  textarea {
+    font-size: large;
+  }
+
+  body,
+  .continent-list,
+  input,
+  button {
+    font-size: medium;
+  }
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Population Survey.</title>
+
+    <!-- font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <h3 class="heading"> Please fill out the form below</h3>
+    
+    <div class="container">
+
+        <form id="survey-form">
+
+            <!-- Name -->
+
+            <div class="field-box">
+                <label for="fname" >First Name:</label><br>
+                <input type="text" placeholder="Enter your name" id="fname">
+            </div>
+
+            <div class="field-box">
+                <label for="lname">Last Name:</label><br>
+                <input type="text" placeholder="Enter your Last name" id="lname">
+            </div>
+
+            <!-- Gender -->
+
+            <div class="check-box">
+                  
+                <ul>
+                    <li>
+                        <td>
+                            <label for="">Male</label>
+                            <input type="radio" name="check" class="input-box">
+                        </td>
+                        <td>
+                            <label for="">Female</label>
+                            <input type="radio" name="check" class="input-box">
+                        </td>
+                        <td>
+                            <label for="">Others</label>
+                            <input type="radio" name="check" class="input-box">
+                        </td>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- EMAIL -->
+
+            <div class="field-box">
+                <label for="email">Email:</label><br>
+                <input type="text" id="email" placeholder="Enter your email">
+            </div>
+
+            <!-- checkbox  -->
+
+            <div class="field-box">
+                <label for="education">Qualifications</label><br>
+                <label><input type="checkbox" id="qualification"> High School</label><br>
+                
+                <label>
+                    <input type="checkbox" id="qualification"> Undergraduation
+                </label><br>
+
+                <label>
+                    <input type="checkbox" id="qualification"> Postgraduation
+                </label><br>
+                
+                <label>
+                    <input type="checkbox" id="qualification"> Doctorate
+                </label>
+            
+            
+            </div>
+                
+
+            <!-- Address -->
+
+            <div class="field-box">
+                <label for="">Address: </label><br>
+                <input type="text" class="address-input" placeholder="Line 1"><br>
+                <input type="text" placeholder="Line 2">
+            </div>
+
+            <div class="field-box">
+                <label>Continent:</label><br>
+                <select class="continent-list">
+                    <option value="">Select an option</option>
+                    <option value="">Asia</option>
+                    <option value="">Europe</option>
+                    <option value="">Antarctica</option>
+                    <option value="">Africa</option>
+                    <option value="">North America</option>
+                    <option value="">South America</option>
+                    <option value="">Australia</option>
+                </select>
+            </div>
+
+            <!-- Comments-->
+
+            <div class="field-box Comment-box">
+                <p>Enter your Comments(optional)</p>
+                <textarea name="comment" rows="7">Type your Message</textarea>
+            </div>
+
+            <!-- Button -->
+
+            <div class="field-box">
+                <button href="#">Submit</button>
+            </div>
+        </form>
+
+      </div>
+      
+
+</body>
+</html>
